@@ -8,7 +8,7 @@ if defined _OLD_CODEPAGE (
     "%SystemRoot%\System32\chcp.com" 65001 > nul
 )
 
-set VIRTUAL_ENV=D:\Work\002 git Repositories\The Closer Look\001 Discord Alarm\discord-alarm-gustav-hahn\venv
+set VIRTUAL_ENV=D:\Work\002 git Repositories\The Closer Look\001 Discord Alarm\discord-alarm-bot\venv
 
 if not defined PROMPT set PROMPT=$P$G
 

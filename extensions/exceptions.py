@@ -7,6 +7,8 @@ def load(bot: lightbulb.BotApp) -> None:
     bot.add_plugin(exception_plugin)
 
 
+# TODO error handling
+# https://hikari-lightbulb.readthedocs.io/en/latest/api_references/events.html
 @exception_plugin.listener(lightbulb.CommandErrorEvent)
 async def on_error(event: lightbulb.CommandErrorEvent) -> None:
     if isinstance(event.exception, lightbulb.CommandInvocationError):
